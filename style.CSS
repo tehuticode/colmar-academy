@@ -20,6 +20,10 @@ body {
     justify-content: center;
 }
 
+ .logo h1 + ul  li {
+     align-items: center;
+     margin-top: 20px;
+ }
 .logo {
     display: flex;
     align-items: left;
@@ -29,3 +33,72 @@ body {
         width:  50px;
     }
 
+    .logo img h2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color:  #9b9b9b;
+        font-weight:  400;
+        font-size: 2rem;
+    }
+
+    .logo h2 .dark-text {
+        color: #505050;
+        font-weight: 700;
+    }
+
+    /* section 1 */
+    .section-1 {
+        background-color:   #d8d8d8;
+        display: flex;
+    }
+
+    .section-1 img {
+        width: 60%;
+        height: auto;
+        padding: 32 px 24px;
+    }
+
+    .section-1-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        height: auto;
+    }
+
+    .section-1-content  h1 {
+        font-size: 2.7rem;
+        line-height: 2.5rem;
+        color: #4a4a4a;
+        padding-bottom: 30px;
+    }
+
+    .section-1-content p {
+        font-size: 1.3rem;
+        padding-bottom: 30px;
+    }
+
+    .section-1-content  .btn {
+        background-color: #4a4a4a;
+       width: 75%;
+       height: 32px;
+       text-align: center;
+    }
+
+    .section-1-content  .btn a {
+       color: #fff;
+       text-decoration: none;
+       font-size: 1.2rem;
+    }
+
+    .section-1-content .btn p{
+        background-color: #4a4a4a;
+        padding: 15px 0;]
+    }
